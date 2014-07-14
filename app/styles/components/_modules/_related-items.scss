@@ -6,15 +6,10 @@
 
 .related-items {
   background-color: $colorGrayDark;
-  color: #ffffff;
+  color: #fff;
   padding-bottom: $lineHeight * 2;
   margin-top: $lineHeight * 2;
-
   .list-links {
-    a {
-      color: #ffffff;
-    }
+    a { color: #fff; }
   }
-
 }
-

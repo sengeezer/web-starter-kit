@@ -10,7 +10,6 @@
   padding-bottom: $lineHeight/2;
   margin-bottom: ($lineHeight/2) - 1;
   border-bottom: 1px solid $colorGrayKeyline;
-
   @include medium {
     padding-bottom: $lineHeight/2;
     margin-bottom: $lineHeight/2;
@@ -19,16 +18,10 @@
 
 .toc__list {
   padding-top: 0;
-
   border-bottom: 1px solid $colorGrayKeyline;
   padding-bottom: ($lineHeight/2) - 1;
   margin-bottom: $lineHeight/2;
-
-  a {
-    display: block;
-  }
+  a { display: block; }
 }
 
-.toc__sublist {
-  padding-top: 0;
-}
+.toc__sublist { padding-top: 0; }

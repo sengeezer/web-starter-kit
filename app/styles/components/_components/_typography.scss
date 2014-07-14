@@ -6,47 +6,21 @@
 
 // Just normalizing text
 // Recommend using padding instead of margin
-h1, h2, h3, h4, h5, p {
-  margin: 0;
-}
+h1, h2, h3, h4, h5, p { margin: 0; }
 
 // Definitions
-.small,
-small {
-  @include type--small;
-}
+.small, small { @include type--small; }
 
-.base,
-p,
-ul,
-ol {
-  @include type--base;
-}
+.base, p, ul, ol { @include type--base; }
 
-.medium,
-h4 {
-  @include type--medium;
-}
+.medium, h4 { @include type--medium; }
 
-.large,
-h3 {
-  @include type--large;
-}
-.xlarge,
-h2 {
-  @include type--xlarge;
-}
+.large, h3 { @include type--large; }
 
-.xxlarge,
-h1 {
-  @include type--xxlarge;
-}
+.xlarge, h2 { @include type--xlarge; }
 
-.huge {
-  @include type--huge;
-}
+.xxlarge, h1 { @include type--xxlarge; }
 
+.huge { @include type--huge; }
 
-li > p {
-  padding-top: 0;
-}
+li > p { padding-top: 0; }

@@ -2,17 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f48a72d2-8a09-4eb3-a4da-d1a41a02d915" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/web-starter-kit.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_modules/_article-nav.scss" afterPath="$PROJECT_DIR$/app/styles/components/_modules/_article-nav.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_modules/_articles-section.scss" afterPath="$PROJECT_DIR$/app/styles/components/_modules/_articles-section.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_modules/_did-you-know.scss" afterPath="$PROJECT_DIR$/app/styles/components/_modules/_did-you-know.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_modules/_editorial-header.scss" afterPath="$PROJECT_DIR$/app/styles/components/_modules/_editorial-header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_modules/_featured-section.scss" afterPath="$PROJECT_DIR$/app/styles/components/_modules/_featured-section.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_modules/_featured-spotlight.scss" afterPath="$PROJECT_DIR$/app/styles/components/_modules/_featured-spotlight.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_global.scss" afterPath="$PROJECT_DIR$/app/styles/components/_global.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_helper.scss" afterPath="$PROJECT_DIR$/app/styles/components/_helper.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_modules/_highlight.scss" afterPath="$PROJECT_DIR$/app/styles/components/_modules/_highlight.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_modules/_in-this-guide.scss" afterPath="$PROJECT_DIR$/app/styles/components/_modules/_in-this-guide.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_components/_list.scss" afterPath="$PROJECT_DIR$/app/styles/components/_components/_list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_components/_media.scss" afterPath="$PROJECT_DIR$/app/styles/components/_components/_media.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_modules/_next-lessons.scss" afterPath="$PROJECT_DIR$/app/styles/components/_modules/_next-lessons.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_normalize.scss" afterPath="$PROJECT_DIR$/app/styles/components/_normalize.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_themed.scss" afterPath="$PROJECT_DIR$/app/styles/components/_themed.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_utils.scss" afterPath="$PROJECT_DIR$/app/styles/components/_utils.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_modules/_page-header.scss" afterPath="$PROJECT_DIR$/app/styles/components/_modules/_page-header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_pages/_page-resources.scss" afterPath="$PROJECT_DIR$/app/styles/components/_pages/_page-resources.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_modules/_quote.scss" afterPath="$PROJECT_DIR$/app/styles/components/_modules/_quote.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_modules/_related-guides.scss" afterPath="$PROJECT_DIR$/app/styles/components/_modules/_related-guides.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_modules/_related-items.scss" afterPath="$PROJECT_DIR$/app/styles/components/_modules/_related-items.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_pages/_styleguide.scss" afterPath="$PROJECT_DIR$/app/styles/components/_pages/_styleguide.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_modules/_summary-header.scss" afterPath="$PROJECT_DIR$/app/styles/components/_modules/_summary-header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_components/_table.scss" afterPath="$PROJECT_DIR$/app/styles/components/_components/_table.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_modules/_toc.scss" afterPath="$PROJECT_DIR$/app/styles/components/_modules/_toc.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_components/_typography.scss" afterPath="$PROJECT_DIR$/app/styles/components/_components/_typography.scss" />
     </list>
     <ignored path="web-starter-kit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_normalize.scss" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/styles/components/_normalize.scss">
+      <file leaf-file-name="_list.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/styles/components/_components/_list.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26881722" vertical-offset="1590" max-vertical-offset="5535">
-              <caret line="116" column="19" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.45698926" vertical-offset="0" max-vertical-offset="5040">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -61,6 +74,29 @@
         <option value="$PROJECT_DIR$/app/styles/components/_utils.scss" />
         <option value="$PROJECT_DIR$/app/styles/components/_themed.scss" />
         <option value="$PROJECT_DIR$/app/styles/components/_normalize.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_helper.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_global.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_pages/_styleguide.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_pages/_page-resources.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_modules/_toc.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_modules/_summary-header.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_modules/_related-items.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_modules/_related-guides.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_modules/_quote.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_modules/_page-header.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_modules/_next-lessons.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_modules/_in-this-guide.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_modules/_highlight.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_modules/_featured-spotlight.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_modules/_featured-section.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_modules/_editorial-header.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_modules/_did-you-know.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_modules/_articles-section.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_modules/_article-nav.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_components/_typography.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_components/_table.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_components/_media.scss" />
+        <option value="$PROJECT_DIR$/app/styles/components/_components/_list.scss" />
       </list>
     </option>
   </component>
@@ -169,6 +205,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-starter-kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-starter-kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -262,8 +324,208 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/components/_normalize.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26881722" vertical-offset="1590" max-vertical-offset="5535">
-          <caret line="116" column="19" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
+        <state vertical-scroll-proportion="-17.0" vertical-offset="4332" max-vertical-offset="4905">
+          <caret line="316" column="0" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_helper.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.5" vertical-offset="1077" max-vertical-offset="1635">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.958334" vertical-offset="220" max-vertical-offset="765">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_pages/_styleguide.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.5" vertical-offset="402" max-vertical-offset="960">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_pages/_page-resources.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_modules/_toc.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="495">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_modules/_summary-header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="390">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_modules/_related-items.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_modules/_related-guides.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_modules/_quote.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.5" vertical-offset="132" max-vertical-offset="690">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_modules/_page-header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_modules/_next-lessons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.0" vertical-offset="402" max-vertical-offset="1020">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_modules/_in-this-guide.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_modules/_highlight.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="18.625" vertical-offset="2937" max-vertical-offset="3495">
+          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_modules/_guides-section.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_modules/_featured-spotlight.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.5" vertical-offset="222" max-vertical-offset="780">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_modules/_featured-section.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="195">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_modules/_editorial-header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.5" vertical-offset="492" max-vertical-offset="1050">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_modules/_did-you-know.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.5" vertical-offset="252" max-vertical-offset="810">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_modules/_articles-section.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="420">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_modules/_article-nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.5" vertical-offset="672" max-vertical-offset="1230">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_components/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="480">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_components/_table.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.5" vertical-offset="1392" max-vertical-offset="1950">
+          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_components/_subsection-title.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_components/_media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_components/_list.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45698926" vertical-offset="0" max-vertical-offset="5040">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding />
         </state>
       </provider>

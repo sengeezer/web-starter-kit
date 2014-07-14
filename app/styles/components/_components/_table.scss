@@ -7,41 +7,31 @@
 table {
   margin-top: $lineHeight;
   width: 100%;
-
   thead {
     background: $colorBlue;
-    color: #ffffff;
+    color: #fff;
   }
-
   th {
     text-align: center;
     display: none;
     font-family: $fontHighlight;
     @include type--medium;
   }
-
   tr {
-    @include medium {
-      border-bottom: 1px solid #ffffff;
-    }
+    @include medium { border-bottom: 1px solid #fff; }
   }
-
-  tbody {
-    background: $colorGrayBackground;
-  }
-
+  tbody { background: $colorGrayBackground; }
   td {
     display: block;
     padding-top: $lineHeight/2;
     padding-bottom: $lineHeight/2;
-
     // This is to re-plicate the table-headers for mobile
     &::before {
       content: attr(data-th) " :";
       display: inline-block;
-      color: #ffffff;
+      color: #fff;
       background: $colorBlue;
-      border-right: 2px solid #ffffff;
+      border-right: 2px solid #fff;
       position: absolute;
       top: 0;
       left: 0;
@@ -53,23 +43,14 @@ table {
       font-weight: 400;
       padding-left: $lineHeight/2;
       padding-top: $lineHeight/2;
-
-      @include medium {
-        display: none;
-      }
+      @include medium { display: none; }
     }
   }
-
-  th,
-  td {
+  th, td {
     position: relative;
     padding-left: 140px;
-
-    @include medium {
-      display: table-cell;
-    }
+    @include medium { display: table-cell; }
   }
-
   th {
     @include medium {
       padding: $lineHeight;
@@ -77,7 +58,6 @@ table {
       padding-bottom: $lineHeight/2 - 1;
     }
   }
-
   td {
     @include medium {
       padding: $lineHeight;
@@ -89,30 +69,24 @@ table {
 td:last-child::after {
   content: "";
   display: block;
-  background: #ffffff;
+  background: #fff;
   height: 1px;
   left: 0;
   position: absolute;
   bottom: 0;
   width: 100%;
-  @include medium {
-    display: none;
-  }
+  @include medium { display: none; }
 }
 
 .table-2 {
   col {
     width: $mediumContainer / 2;
-    @include wide {
-      width: $wideContainer / 2;
-    }
+    @include wide { width: $wideContainer / 2; }
   }
-
-  th,
-  td {
+  th, td {
     @include medium {
       &:first-child {
-        border-right: 2px solid #ffffff;
+        border-right: 2px solid #fff;
       }
     }
   }
@@ -121,17 +95,13 @@ td:last-child::after {
 .table-3 {
   col {
     width: $mediumContainer / 3;
-    @include wide {
-      width: $wideContainer / 3;
-    }
+    @include wide { width: $wideContainer / 3; }
   }
-
-  th,
-  td {
+  th, td {
     @include medium {
       &:nth-child(2) {
-        border-left: 2px solid #ffffff;
-        border-right: 2px solid #ffffff;
+        border-left: 2px solid #fff;
+        border-right: 2px solid #fff;
       }
     }
   }
@@ -140,18 +110,14 @@ td:last-child::after {
 .table-4 {
   col {
     width: $mediumContainer / 4;
-    @include wide {
-      width: $wideContainer / 4;
-    }
+    @include wide { width: $wideContainer / 4; }
   }
-
-  th,
-  td {
+  th, td {
     @include medium {
       &:nth-child(2),
       &:nth-child(3) {
-        border-left: 2px solid #ffffff;
-        border-right: 2px solid #ffffff;
+        border-left: 2px solid #fff;
+        border-right: 2px solid #fff;
       }
     }
   }

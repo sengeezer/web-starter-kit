@@ -6,8 +6,7 @@
 
 
 .clear {
-  &::before,
-  &::after {
+  &::before, &::after {
     content:"";
     display:table;
   }
@@ -17,7 +16,7 @@
 }
 
 
-/*==========  COLORS  ==========*/
+/* COLORS */
 
 .color--blue { color: $colorBlue; }
 .color--red { color: $colorRed; }
@@ -52,13 +51,11 @@
 .color--performance-secondary { color: $colorPerformanceSecondary; }
 
 
-
-/*==========  TEXT DIVIDER  ==========*/
+/* TEXT DIVIDER */
 
 .text-divider {
   position: relative;
   margin-bottom: $lineHeight;
-
   &::after {
     content: "";
     display: block;
@@ -69,40 +66,28 @@
     left: 30%;
     bottom: -$lineHeight/2;
   }
-
   &.xlarge {
     margin-bottom: $lineHeight*2;
-
-    &::after {
-      bottom: -($lineHeight*2)/2;
-    }
+    &::after { bottom: -($lineHeight*2)/2; }
   }
-
   &.xxlarge {
     margin-bottom: $lineHeight*3;
-
-    &::after {
-      bottom: -($lineHeight*3)/2;
-    }
+    &::after { bottom: -($lineHeight*3)/2; }
   }
-
   &.huge {
     margin-bottom: $lineHeight*3;
-
-    &::after {
-      bottom: -($lineHeight*3)/2;
-    }
+    &::after { bottom: -($lineHeight*3)/2; }
   }
 }
 
 
-/*==========  GENERIC  ==========*/
-.centered {
-  text-align: center;
-}
+/* GENERIC */
+
+.centered { text-align: center; }
 
 
-/*==========  TAG  ==========*/
+/* TAG */
+
 .tag {
   @include type--small;
   font-family: $fontHighlight;
@@ -110,11 +95,7 @@
   font-weight: 700;
   display: inline-block;
   text-decoration: none;
-
-  &:hover {
-    color: $colorGrayDark;
-  }
-
+  &:hover { color: $colorGrayDark; }
   &::before {
     content: "# ";
     display: inline-block;

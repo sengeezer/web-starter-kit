@@ -4,9 +4,7 @@
 *
 **/
 
-*, *::before, *::after {
-  box-sizing: border-box;
-}
+*, *::before, *::after { box-sizing: border-box; }
 
 html, body, button {
   -webkit-font-smoothing: antialiased;
@@ -19,7 +17,6 @@ body {
   line-height: 1.6250em; /* 26px */
   font-weight: 300; // to thicken it a bit, we need to remove font-smoothing
   color: $colorText;
-
   @include baseline-grid();
 }
 
@@ -28,32 +25,21 @@ pre {
   padding: 13px;
 }
 
-.main-container {
-  @include container(true);
-}
+.main-container { @include container(true); }
 
-.container {
-  @include container(true);
-}
+.container { @include container(true); }
 
 .container-medium {
-  @include medium {
-    @include container(true);
-  }
+  @include medium { @include container(true); }
 }
 
 .container-small {
-  @include small-only {
-    @include container(true);
-  }
+  @include small-only { @include container(true); }
 }
 
 .content {
   @include wide {
     margin-right: 25.9%; // took this from the grid output - using @extend inside media-query is deprecated, need to figure out a better way to do this.
-
-    & pre {
-      margin-right: -25.9%;
-    }
+    & pre { margin-right: -25.9%; }
   }
 }

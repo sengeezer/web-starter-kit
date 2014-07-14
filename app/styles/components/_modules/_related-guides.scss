@@ -12,27 +12,18 @@
 }
 
 .related-guides__list {
-  .list-links {
-    padding-top: 0;
-  }
-
-  a {
-    display: block;
-  }
+  .list-links { padding-top: 0; }
+  a { display: block; }
 }
 
 .related-guides__title {
   @include type--xlarge;
   padding-top: 0;
-
-  @include medium {
-    padding-top: 0;
-  }
+  @include medium { padding-top: 0; }
 }
 
 .related-guides__main-link {
   text-transform: uppercase;
-
   &::before {
     content: "#";
     display: inline-block;
