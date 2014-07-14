@@ -4,7 +4,7 @@
 *
 **/
 
-/*==========  VARIABLES  ==========*/
+/* VARIABLES */
 
   // Defining breakpoints
   $medium: 620px !default;
@@ -37,7 +37,7 @@
   $colorGrayBackground: #f0f0f0 !default;
   $colorGrayKeyline: #e0e0e0 !default;
   $colorGray: #737373 !default;
-  $colorGrayLight: #eeeeee !default;
+  $colorGrayLight: #eee !default;
   $colorGrayDark: #404040 !default;
 
   $colorText: $colorGrayDark !default;
@@ -79,14 +79,14 @@
   $sidebarWidth: 280px !default;
 
 
-/*==========  FUNCTIONS  ==========*/
+/* FUNCTIONS */
 
   @function leading($size, $context: $lineHeight) {
     @return  $context / $size + em;
   }
 
 
-/*==========  MIXINS  ==========*/
+/* MIXINS */
 
   @mixin media-query($media-query) {
     @if $media-query == small {
@@ -110,7 +110,7 @@
     }
   }
 
-  // Just some helpers...
+  // Some helpers...
   @mixin small-only { @include media-query(small) { @content }; }
   @mixin medium { @include media-query(medium) { @content }; }
   @mixin medium-only { @include media-query(medium-only) { @content }; }
@@ -130,7 +130,6 @@
     margin-left: auto;
     margin-right: auto;
 
-
     @include medium {
       padding-left: 4.8%;
       padding-right: 4.8%;
@@ -145,12 +144,10 @@
   }
 
 
-
   // Mixin to show a baseline grid
   // only visible when body has 'debug' class
   @mixin baseline-grid() {
     position: relative;
-
     &::after {
       content: "";
       position: absolute;
@@ -160,13 +157,10 @@
       right: 0;
       width: 100%;
       z-index: 9;
-
       display: none;
       background-image: linear-gradient(to bottom, rgba(0,0,0,0.15) 95%,rgba(0,0,0,0.15) 100%);
-
       background-size: 100% 26px;
     }
-
     &.debug::after {
       display: block;
       pointer-events: none;
@@ -233,76 +227,49 @@
   }
 
 
-
   // Mixins to determine which rule to use at which breakpoint
-  @mixin type--small($isFromMixin: false) {
-    @include rule--small;
-  }
-
-  @mixin type--base($isFromMixin: false) {
-    @include rule--base;
-  }
+  @mixin type--small($isFromMixin: false) { @include rule--small; }
+  @mixin type--base($isFromMixin: false) { @include rule--base; }
 
   @mixin type--medium($isFromMixin: false) {
     @if $isFromMixin == false {
       @include type--base(true);
-      @include wide {
-        @include rule--medium;
-      }
+      @include wide { @include rule--medium; }
     }
-    @else {
-      @include rule--medium;
-    }
+    @else { @include rule--medium; }
   }
 
   @mixin type--large($isFromMixin: false) {
     @if $isFromMixin == false {
       @include type--medium(true);
-      @include wide {
-        @include rule--large;
-      }
+      @include wide { @include rule--large; }
     }
-    @else {
-      @include rule--large;
-    }
+    @else { @include rule--large; }
   }
 
   @mixin type--xlarge($isFromMixin: false) {
     @if $isFromMixin == false {
       @include type--large(true);
-      @include wide {
-        @include rule--xlarge;
-      }
+      @include wide { @include rule--xlarge; }
     }
-    @else {
-      @include rule--xlarge;
-    }
+    @else { @include rule--xlarge; }
   }
 
   @mixin type--xxlarge($isFromMixin: false) {
     @if $isFromMixin == false {
       @include type--xlarge(true);
-      @include wide {
-        @include rule--xxlarge;
-      }
+      @include wide { @include rule--xxlarge; }
     }
-    @else {
-      @include rule--xxlarge;
-    }
+    @else { @include rule--xxlarge; }
   }
 
   @mixin type--huge($isFromMixin: false) {
     @if $isFromMixin == false {
       @include type--xxlarge(true);
-      @include wide {
-        @include rule--huge;
-      }
+      @include wide { @include rule--huge; }
     }
-    @else {
-      @include rule--huge;
-    }
+    @else { @include rule--huge; }
   }
-
 
   // LISTS
   @mixin bullet-type($bullet, $icon: false) {
@@ -316,14 +283,12 @@
         content: $bullet;
         font-family: $fontHighlight;
       }
-
       display: block;
       font-weight: 400;
       position: absolute;
       top: 0;
       left: 0;
       line-height: $lineHeight;
-
     }
   }
 
@@ -346,11 +311,7 @@
     font-weight: 400;
     display: inline-block;
     line-height: 1;
-
-    &:hover {
-      color: $colorGrayDark;
-    }
-
+    &:hover { color: $colorGrayDark; }
     @if $linkIcon {
       text-decoration: none;
       &::before {
@@ -367,16 +328,13 @@
   // Mixin to create highlight modules
   @mixin highlight-symbol($verticalOffset: 0, $horizontalOffset: 45px, $fontSize: 130px) {
     position: relative;
-
     &::before {
       display: none;
-
       @include medium {
         display: block;
         position: absolute;
         top: 106px;
         right: $horizontalOffset;
-
         font-family: $fontIcon;
         font-size: $fontSize;
         line-height: 1px;
@@ -385,20 +343,15 @@
         width: $mediumColWidth;
         color: #ffffff;
       }
-
       .highlight-module--left & {
         right: auto;
         left: $horizontalOffset;
       }
-
       @include wide {
         top: 134px;
         width: $wideColWidth;
         font-size: $fontSize + 50;
-
-        .highlight-module--large & {
-          font-size: $fontSize + 300;
-        }
+        .highlight-module--large & { font-size: $fontSize + 300; }
       }
     }
   }
@@ -409,7 +362,6 @@
       float: left;
       margin-right: $mediumGutterWidth;
     }
-
     @if $mediaQuery == wide {
       float: left;
       margin-right: $wideGutterWidth;
