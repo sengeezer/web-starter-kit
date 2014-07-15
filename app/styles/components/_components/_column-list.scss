@@ -5,38 +5,28 @@
 **/
 
 .columns-list-wrapper {
-  @include wide {
-    margin-right: $mediumColWidth;
-  }
-
+  @include wide { margin-right: $mediumColWidth; }
 }
 
 .list--columns {
   border-bottom: 1px solid #ccc;
   padding-bottom: $lineHeight - 1;
   margin-bottom: 1px;
-
   @include medium {
-    column-count: 2;
-    column-rule: 0 none transparent;
-    column-gap: 0;
+    column: {
+      count: 2;
+      rule: 0 none transparent;
+      gap: 0;
+    }
   }
-
-  & li,
-  & .columns-list-item {
+  & li, & .columns-list-item {
     @include type--small;
     padding: 0;
   }
-
   & a {
     display:  block;
     position: relative;
     padding-left: 39px;
-
-    &::before {
-      line-height: 26px;
-    }
+    &::before { line-height: 26px; }
   }
-
 }
-
