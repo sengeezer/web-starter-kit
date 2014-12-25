@@ -78,13 +78,11 @@
   // Defining sidebar stuff
   $sidebarWidth: 280px !default;
 
-
 /* FUNCTIONS */
 
   @function leading($size, $context: $lineHeight) {
     @return  $context / $size + em;
   }
-
 
 /* MIXINS */
 
@@ -120,29 +118,22 @@
   // Mixin to constrain elements
   @mixin container($isRelative: false) {
     box-sizing: content-box;
-
-    @if $isRelative {
-      position: relative;
-    }
-
+    @if $isRelative { position: relative; }
     padding-left: 5%;
     padding-right: 5%;
     margin-left: auto;
     margin-right: auto;
-
     @include medium {
       padding-left: 4.8%;
       padding-right: 4.8%;
       max-width: $mediumContainer;
     }
-
     @include wide {
       padding-left: 4.4%;
       padding-right: 4.4%;
       max-width: $wideContainer;
     }
   }
-
 
   // Mixin to show a baseline grid
   // only visible when body has 'debug' class
@@ -225,7 +216,6 @@
     padding-top: 0.2364em;
     padding-bottom: 0;
   }
-
 
   // Mixins to determine which rule to use at which breakpoint
   @mixin type--small($isFromMixin: false) { @include rule--small; }

@@ -4,8 +4,7 @@
 *
 **/
 
-ul,
-ol {
+ul, ol {
   list-style: none;
   margin: 0;
   @include small-only { padding-left: 0; }
@@ -28,15 +27,12 @@ ol {
     // from the 10th and overrides the
     // content property of each
     &:nth-child(10n) ~ li::before,
-    &:nth-child(10n)::before {
-      content: counter(list);
-    }
+    &:nth-child(10n)::before { content: counter(list); }
   }
 }
 
 ul ol,
 ol ul { padding-top: 0; }
-
 
 /* LIST LINKS */
 

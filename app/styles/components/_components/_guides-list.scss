@@ -4,7 +4,6 @@
 *
 **/
 
-
 .guides-list {
   overflow: hidden;
   @include medium {
@@ -46,7 +45,6 @@
       & i { font-size: 23px; }
     }
   }
-
   ol {
     margin: $lineHeight 0 0;
     padding: $lineHeight*2 0 $lineHeight*2;

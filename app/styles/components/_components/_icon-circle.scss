@@ -40,13 +40,9 @@
   margin-bottom: 0;
   padding: $lineHeight;
   position: relative;
-
   i {
     font-size: $fontLarge;
-
-    @include medium {
-      font-size: $fontXLarge;
-    }
+    @include medium { font-size: $fontXLarge; }
   }
   @include medium {
     padding: ($lineHeight + $lineHeight/2) - 2;

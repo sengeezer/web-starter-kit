@@ -4,7 +4,6 @@
 *
 **/
 
-
 .clear {
   &::before, &::after {
     content:"";
@@ -14,7 +13,6 @@
     clear:both;
   }
 }
-
 
 /* COLORS */
 
@@ -50,7 +48,6 @@
 .color--media-secondary { color: $colorMediaSecondary; }
 .color--performance-secondary { color: $colorPerformanceSecondary; }
 
-
 /* TEXT DIVIDER */
 
 .text-divider {
@@ -80,11 +77,9 @@
   }
 }
 
-
 /* GENERIC */
 
 .centered { text-align: center; }
-
 
 /* TAG */
 
